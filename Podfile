@@ -1,13 +1,15 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/Licongc/podtext.git'
 
 target 'podtest2' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
 	pod 'localpodtest', :path => '../podtest/libs/lib/localpodtest-0.0.1'
-  
-#  pod 'localpod2', :path => 'libs/lib'
+#  pod 'localpod2'
+  pod 'localpod2', :path => 'libs/lib'
 #pod 'localpod2', :path => '/Users/lynb180305/Downloads/workspace/pod实验/podtest2/libs/lib/localpod2-0.0.1'
 
   
