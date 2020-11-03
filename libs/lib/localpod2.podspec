@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "licc" => "congcong.li@lvyuetravel.com" }
+  spec.author             = { "licc" => "congcong.li@lvyuetravel.com" :tag => "v#{spec.version}"}
   # Or just: spec.author    = "licc"
   # spec.authors            = { "licc" => "congcong.li@lvyuetravel.com" }
   # spec.social_media_url   = "https://twitter.com/licc"
