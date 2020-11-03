@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A short description of localpad2
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/localpod2"
+  spec.homepage     = "https://github.com/Licongc/podtext"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

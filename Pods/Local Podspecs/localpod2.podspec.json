@@ -12,7 +12,7 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "file:///Users/lynb180305/Downloads/workspace/pod实验/podtest2"
+    "git": "https://github.com/Licongc/podtext.git"
   },
   "source_files": [
     "localpod2",
