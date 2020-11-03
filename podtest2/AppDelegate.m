@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AFNetworking/AFNetworking.h>
+//#import <AFNetworking/AFNetworking.h>
 
 @interface AppDelegate ()
 
