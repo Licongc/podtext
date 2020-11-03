@@ -1,0 +1,21 @@
+{
+  "name": "localpodtest",
+  "version": "0.0.1",
+  "summary": "localpodtest.",
+  "license": "MIT",
+  "authors": {
+    "licc": "congcong.li@lvyuetravel.com"
+  },
+  "homepage": "http://EXAMPLE/localpodtest",
+  "description": "A short description of localpodtest",
+  "frameworks": "Foundation",
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/localpodtest.embeddedframework/localpodtest.framework"
+  }
+}
