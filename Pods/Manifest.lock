@@ -14,15 +14,15 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - localpod2 (0.0.1)
+  - localpod2 (0.0.1):
+    - AFNetworking (~> 3.0)
+    - ReactiveObjC (~> 3.0)
   - localpodtest (0.0.1)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
   - localpod2 (from `libs/lib`)
   - localpodtest (from `../podtest/libs/lib/localpodtest-0.0.1`)
-  - ReactiveObjC (~> 3.0)
 
 SPEC REPOS:
   trunk:
@@ -37,10 +37,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  localpod2: f5cf6feb2c2fd81ba885910afaf3534f8543bc3c
+  localpod2: 57e8e0752c7adc8e0f1b2d2f477f41bd12b2bb7a
   localpodtest: 85996095f3819ee24de230fb86ce1e73c01eac95
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 8029ad0277345f58213b1d862a7686055853cdce
+PODFILE CHECKSUM: fc7ae1a30ee8f4e84667aeb8dcb714be6fa5ae45
 
 COCOAPODS: 1.10.0
