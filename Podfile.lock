@@ -14,15 +14,15 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - localpod2 (0.0.1)
+  - localpod2 (0.0.1):
+    - AFNetworking (~> 3.0)
+    - ReactiveObjC (~> 3.0)
   - localpodtest (0.0.1)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
-  - "localpod2 (from `/Users/lynb180305/Downloads/workspace/pod实验/podtest2/libs/lib/localpod2-0.0.1`)"
+  - localpod2 (from `libs/lib`)
   - localpodtest (from `../podtest/libs/lib/localpodtest-0.0.1`)
-  - ReactiveObjC (~> 3.0)
 
 SPEC REPOS:
   trunk:
@@ -31,16 +31,16 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   localpod2:
-    :path: "/Users/lynb180305/Downloads/workspace/pod实验/podtest2/libs/lib/localpod2-0.0.1"
+    :path: libs/lib
   localpodtest:
     :path: "../podtest/libs/lib/localpodtest-0.0.1"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  localpod2: b06ff114644b31bb5f1e7578ab16cf64281b4146
+  localpod2: b8461a93075bf51232ec943e812e9ff8d90c0431
   localpodtest: 85996095f3819ee24de230fb86ce1e73c01eac95
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: ebe5a161064800a28e1323281549c4aff356edba
+PODFILE CHECKSUM: bea7cde081ab6e01877fa7c2d75f71d0a2fbecf2
 
 COCOAPODS: 1.10.0

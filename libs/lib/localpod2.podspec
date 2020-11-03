@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "file:///Users/lynb180305/Downloads/workspace/pod实验/podtest2" }
+  spec.source       = { :git => "https://github.com/Licongc/podtext.git" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

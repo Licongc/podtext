@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/localpod2.embeddedframework/localpod2.framework'
-  
 end
