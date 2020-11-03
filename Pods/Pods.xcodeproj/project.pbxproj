@@ -366,6 +366,7 @@
 		06242732F24BBF253881CCCEC49D0735 /* RACGroupedSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACGroupedSignal.h; path = ReactiveObjC/RACGroupedSignal.h; sourceTree = "<group>"; };
 		0629F6806CB9162A84CCCF7E01F2523F /* RACDynamicSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDynamicSignal.m; path = ReactiveObjC/RACDynamicSignal.m; sourceTree = "<group>"; };
 		06526865D02526CE218C6BC442B5449E /* UIButton+RACCommandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+RACCommandSupport.h"; path = "ReactiveObjC/UIButton+RACCommandSupport.h"; sourceTree = "<group>"; };
+		069197B36F669796795002341FE020F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		06990355530686C3299C329A7482043B /* ReactiveObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactiveObjC.release.xcconfig; sourceTree = "<group>"; };
 		08327ADD9B43EC0A83C4C6426F1A96BB /* RACBlockTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACBlockTrampoline.m; path = ReactiveObjC/RACBlockTrampoline.m; sourceTree = "<group>"; };
 		08753D4580657CD71F9ABAE264F8370F /* RACDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACDelegateProxy.m; path = ReactiveObjC/RACDelegateProxy.m; sourceTree = "<group>"; };
@@ -397,6 +398,7 @@
 		1735D1681510051A74B7016A428BA67F /* RACPassthroughSubscriber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACPassthroughSubscriber.m; path = ReactiveObjC/RACPassthroughSubscriber.m; sourceTree = "<group>"; };
 		1825CB77DA5028293FA8C93D6D99119C /* localpod2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "localpod2-dummy.m"; sourceTree = "<group>"; };
 		18EB50BDFF6745B3B6C151FA4FF53682 /* localpodtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = localpodtest.framework; path = ios/localpodtest.embeddedframework/localpodtest.framework; sourceTree = "<group>"; };
+		192830B8C8238861B861F5A5CB29E887 /* localpod2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = localpod2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AB55780701E00A8BEE7AB45FD56967D /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		1C3203A519024410E7F7B0479077B31E /* RACMulticastConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACMulticastConnection.h; path = ReactiveObjC/RACMulticastConnection.h; sourceTree = "<group>"; };
 		1C9F38258B58F6BBD10893FBE7E7CA23 /* RACKVOTrampoline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOTrampoline.m; path = ReactiveObjC/RACKVOTrampoline.m; sourceTree = "<group>"; };
@@ -489,7 +491,6 @@
 		62F86DD5E70A9E6345CABA0F22387672 /* localpod2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = localpod2.release.xcconfig; sourceTree = "<group>"; };
 		63C0FE256EF43F8543E3FF9874A627B2 /* RACmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACmetamacros.h; path = ReactiveObjC/extobjc/RACmetamacros.h; sourceTree = "<group>"; };
 		6664B7BFC99C016480B36F624E834409 /* RACKVOChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACKVOChannel.m; path = ReactiveObjC/RACKVOChannel.m; sourceTree = "<group>"; };
-		6668BF612D9B10E124D64B915473EDC8 /* localpod2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = localpod2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6741C3DC1986EB449DE7B81465A28A3F /* Pods-podtest2-podtest2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-podtest2-podtest2UITests.modulemap"; sourceTree = "<group>"; };
 		67C98C3C6278803EE838DEF7122D4FC2 /* NSString+RACSequenceAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RACSequenceAdditions.m"; path = "ReactiveObjC/NSString+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		6813DA48F26E5E0BDA6C368A5F06F9A9 /* UISwitch+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+RACSignalSupport.m"; path = "ReactiveObjC/UISwitch+RACSignalSupport.m"; sourceTree = "<group>"; };
@@ -550,7 +551,6 @@
 		9842E2F65E773AC9C2E4FD49B32194DC /* RACQueueScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACQueueScheduler.h; path = ReactiveObjC/RACQueueScheduler.h; sourceTree = "<group>"; };
 		98D6B02919DD4094D5E2ED404BF18B10 /* UISegmentedControl+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+RACSignalSupport.m"; path = "ReactiveObjC/UISegmentedControl+RACSignalSupport.m"; sourceTree = "<group>"; };
 		98E8F17B94F257670FAA76D7EA90E36D /* NSObject+RACSelectorSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RACSelectorSignal.m"; path = "ReactiveObjC/NSObject+RACSelectorSignal.m"; sourceTree = "<group>"; };
-		9A6C08A206209DD3CBE7D66BB6DBED98 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
 		9A6F29EE0C8FEFCC0937FB2C370FD29C /* RACEmptySignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEmptySignal.m; path = ReactiveObjC/RACEmptySignal.m; sourceTree = "<group>"; };
 		9AA2DA0421C935DA0A41F180304F26B7 /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACEXTRuntimeExtensions.h; path = ReactiveObjC/extobjc/RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		9D3AFE429CA1B146E0AD90452093A098 /* RACDisposable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACDisposable.h; path = ReactiveObjC/RACDisposable.h; sourceTree = "<group>"; };
@@ -774,6 +774,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		265F9654C9528907002EF1C6391A33B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				069197B36F669796795002341FE020F5 /* LICENSE */,
+				192830B8C8238861B861F5A5CB29E887 /* localpod2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3B6072AE61836BEA3E5A775C43E539E4 /* ReactiveObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -989,15 +998,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		53B0DCE6AADE322A63C5DBB8895E1C97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9A6C08A206209DD3CBE7D66BB6DBED98 /* LICENSE.md */,
-				6668BF612D9B10E124D64B915473EDC8 /* localpod2.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		567DDCB8A53FA092626A4AB8968F998F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1113,7 +1113,7 @@
 				0E2A12C4C0A9A60A664E116D07C117E8 /* LYServiceConfiguration.m */,
 				2183B2B40C148BE95BA74E272484A27F /* LYSessionService.h */,
 				5E4B717151A2660C864EB1FB63541CC6 /* LYSessionService.m */,
-				53B0DCE6AADE322A63C5DBB8895E1C97 /* Pod */,
+				265F9654C9528907002EF1C6391A33B3 /* Pod */,
 				1AE7DE7395A1942FE9D4FBFBB34C1B58 /* Support Files */,
 			);
 			name = localpod2;

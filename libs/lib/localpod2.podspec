@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "localpod2", "localpod2/**/*.{h,m}","libs/lib/localpod2", "libs/lib/localpod2/**/*.{h,m}"
   
 
-  spec.public_header_files = "libs/lib/localpod2/**/*.h"
+  spec.public_header_files = "libs/lib/localpod2/**/*.h","libs/lib/localpod2/.{h}","localpod2/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
