@@ -10,7 +10,7 @@ target 'podtest2' do
   pod 'localpod2', :path => 'libs/lib'
   
   pod 'AFNetworking', '~>3.0'
-#  pod 'ReactiveObjC', '~> 3.0'
+  pod 'ReactiveObjC', '~> 3.0'
 
   # Pods for podtest2
 

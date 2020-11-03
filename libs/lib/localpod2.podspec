@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+   spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
    spec.ios.deployment_target = "9.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "libs/lib/localpod2/Classes", "libs/lib/localpod2/Classes/**/*.{h,m}"
+  spec.source_files  = "localpod2", "localpod2/**/*.{h,m}","libs/lib/localpod2/Classes", "libs/lib/localpod2/Classes/**/*.{h,m}"
   
 
 #  spec.public_header_files = "localpod2/Classes/**/*.h"
