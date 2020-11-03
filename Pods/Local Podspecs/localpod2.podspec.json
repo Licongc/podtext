@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "summary": "localpod2.",
   "description": "A short description of localpad2",
-  "homepage": "http://EXAMPLE/localpod2",
-  "license": "MIT",
+  "homepage": "https://github.com/Licongc/podtext",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "licc": "congcong.li@lvyuetravel.com"
   },
