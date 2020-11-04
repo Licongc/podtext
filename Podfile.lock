@@ -21,7 +21,7 @@ PODS:
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - localpod2 (from `libs/lib`)
+  - localpod2 (from `.`)
   - localpodtest (from `../podtest/libs/lib/localpodtest-0.0.1`)
 
 SPEC REPOS:
@@ -31,7 +31,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   localpod2:
-    :path: libs/lib
+    :path: "."
   localpodtest:
     :path: "../podtest/libs/lib/localpodtest-0.0.1"
 
@@ -41,6 +41,6 @@ SPEC CHECKSUMS:
   localpodtest: 85996095f3819ee24de230fb86ce1e73c01eac95
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 7e7498792f16f3c6c0152c428678f54214a6e845
+PODFILE CHECKSUM: 003b8ae3a26f7e1a56437094f2899b9b80cfe813
 
 COCOAPODS: 1.10.0

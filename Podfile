@@ -8,8 +8,17 @@ target 'podtest2' do
   use_frameworks!
 
 	pod 'localpodtest', :path => '../podtest/libs/lib/localpodtest-0.0.1'
+  
+#  source 'https://github.com/Licongc/podtext.git'
 #  pod 'localpod2'
-  pod 'localpod2', :path => 'libs/lib'
+
+
+  
+  pod 'localpod2', :path => '.'
+  
+#  source 'https://github.com/Licongc/LCAlertController.git'
+#  pod 'LCCAlertController'
+
 #pod 'localpod2', :path => '/Users/lynb180305/Downloads/workspace/pod实验/podtest2/libs/lib/localpod2-0.0.1'
 
   
