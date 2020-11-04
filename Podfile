@@ -14,7 +14,7 @@ target 'podtest2' do
 
 
   
-  pod 'localpod2', :path => '.'
+  pod 'localpod2'
   
 #  source 'https://github.com/Licongc/LCAlertController.git'
 #  pod 'LCCAlertController'
