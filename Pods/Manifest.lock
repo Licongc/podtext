@@ -17,29 +17,25 @@ PODS:
   - localpod2 (0.0.1):
     - AFNetworking (~> 3.0)
     - ReactiveObjC (~> 3.0)
-  - localpodtest (0.0.1)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - localpod2
-  - localpodtest (from `../podtest/libs/lib/localpodtest-0.0.1`)
+  - localpod2 (from `.`)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - localpod2
     - ReactiveObjC
 
 EXTERNAL SOURCES:
-  localpodtest:
-    :path: "../podtest/libs/lib/localpodtest-0.0.1"
+  localpod2:
+    :path: "."
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   localpod2: db6767038b9d700f7cb4c81d3f106d93c61f2f1c
-  localpodtest: 85996095f3819ee24de230fb86ce1e73c01eac95
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: c5ef4d6133e1adfa32ff5bde3a9f7f96a2f3bf16
+PODFILE CHECKSUM: bf4c617d827c39ca095cbb92f632139b7a919888
 
 COCOAPODS: 1.10.0

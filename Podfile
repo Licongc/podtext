@@ -7,14 +7,15 @@ target 'podtest2' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-	pod 'localpodtest', :path => '../podtest/libs/lib/localpodtest-0.0.1'
+#	pod 'localpodtest', :path => '../podtest/libs/lib/localpodtest-0.0.1'
   
 #  source 'https://github.com/Licongc/podtext.git'
 #  pod 'localpod2'
 
+  pod 'localpod2', :path => '.'
 
   
-  pod 'localpod2'
+#  pod 'localpod2'
   
 #  source 'https://github.com/Licongc/LCAlertController.git'
 #  pod 'LCCAlertController'
